@@ -1,0 +1,457 @@
+@media screen and (max-width: 1440px) {
+    
+body {
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    background-color: rgb(241, 231, 241);
+    font-family: "inter", serif;
+
+}
+
+main {
+    width: 1000px;
+    height: 100px;
+    margin: 60px auto;
+    margin-bottom: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    
+}
+
+div
+
+div{
+    
+}
+
+
+img{
+   margin: 20px;
+}
+.create-post{
+    background-color: hsl(31, 66%, 93%);
+    
+}
+
+div.social-media{
+    grid-column: span 2;
+}
+
+div.schedule{
+    grid-row: span 2;
+}
+
+div.create-post{
+    grid-row: span 2;
+}
+
+
+div.grow{
+    grid-column: span 2;
+   
+}
+
+div.ai{
+    position: relative;
+    top: -140px;
+    margin-bottom: -140px
+}
+.social-media{
+    background-color: hsl(256, 67%, 59%);
+
+}
+
+.schedule{
+    background-color: hsl(254, 88%, 90%);
+}
+
+div{
+
+}
+
+.ai{
+    background-color: hsl(39, 100%, 71%);
+}
+
+.manage{
+    background-color: white;
+}
+
+.maintain{
+   background-color: hsl(39, 100%, 71%); 
+}
+
+.faster {
+    background-color: white;
+}
+
+.grow{
+    background-color: hsl(256, 67%, 59%); 
+}
+
+div img{
+    width: 40%;
+    height: auto;
+}
+
+div{
+    border-radius: 8px;
+}
+
+div.social-media{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.social-media{
+    line-height: 1;
+}
+
+div.social-media h1{
+    font-weight: 400;
+    color: white;
+    font-size: 50px;
+    width: 90%;
+    padding: 0;
+    margin-top: 50px;
+
+}
+
+div.social-media p{
+    color: white;
+    position: relative;
+    top: -45px;
+}
+div.social-media span{
+    color: hsl(39, 100%, 71%);
+
+}
+
+ div img.social-media{
+    height: 30px;
+    width: 160px;
+    position: relative;
+    top: -20px;
+}
+
+div.create-post{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+
+div.create-post h1{
+    margin: 30px;
+    margin-top: 60px;
+    font-size: 35px ;
+    font-weight: 400;
+}
+
+img.create-post{
+    height: 80px;
+    width: 80%;
+    position: relative;
+    top: -20px
+    
+}
+
+div.create-post span{
+    color: hsl(256, 67%, 59%);
+    
+}
+
+div.schedule{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+div.schedule h3{
+    margin: 30px;
+    font-weight: 500;
+    font-size: 25px;
+}
+img.schedule{
+    margin-left: 30px;
+    width: 140%;
+    height: 60%;
+    position: relative;
+    top: -30px;
+}
+
+div.schedule p{
+    margin-left: 30px;
+    position: relative;
+    top: -30px;
+    font-size: 18px;
+}
+
+div.manage{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+img.manage{
+    width: 120%;
+}
+
+div.manage h3{
+    font-size: 25px;
+    position: relative;
+    top: -20px;
+}
+
+div.manage h3{
+    margin-left: 30px ;
+}
+
+div.maintain{
+    display: flex;
+    flex-direction: column;
+}
+
+div.maintain h3{
+    margin: 30px;
+
+}
+
+div.maintain h3{
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    
+}
+img.maintain{
+    width: 80%;
+    margin-bottom: -72px;
+    clip-path: inset(0 0 50% 0);
+
+}
+
+div.grow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex{
+    color: white;
+    font-size: 30px;
+    font-weight: 450;
+    position: relative;
+    top: 40px;
+    
+}
+
+img.growth{
+    height: 80%;
+    width: 220px;
+    margin-top: 30px;
+
+}
+
+img.grow{
+    height: 80%;
+}
+
+div.ai{
+    display: flex;
+    flex-direction: column;
+} 
+
+div.ai h3{
+    margin: 30px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+img.ai{
+    width: 85%;
+}
+
+div.faster h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 30px;
+}
+
+div.faster p{
+    font-size: 15px;
+    margin: 30px;
+    position: relative;
+    top: -10px;
+}
+
+img.faster{
+    width: 160px;
+    position: relative;
+    top: -20px;
+}
+
+div.maintain h3{
+    font-weight: 500;
+}
+
+div.manage h3{
+    font-weight: 500;
+}
+
+div.ai h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+div.manage h3 , div.maintain h3{
+    font-size: 30px;
+}
+}
+
+@media (max-width: 375px) {
+    body{
+        width: 375px;
+        margin: 0;
+        padding: 0;
+        font-family: "inter" serif;
+        
+    }
+
+    main{
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, auto);
+        padding: 10px;
+    }
+
+    div {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        position: static;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    div.social-media{
+        grid-column: auto;
+    }
+
+    div.grow{
+        grid-column: auto;
+    }
+
+    div.schedule{
+        grid-row: auto;
+
+    }
+
+    div.create-post{
+        grid-row: auto;
+    }
+
+    div.manage{
+        height: 200px;
+    }
+
+    div.social-media{
+        grid-row: 1;
+    }
+
+    div.manage{
+        grid-row: 2;
+    }
+
+    div.maintain{
+        grid-row: 3;
+    }
+
+    div.schedule{
+        height: 700px;
+        overflow: visible;
+        grid-row: 4;
+
+    }
+
+    img.schedule{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    div.social-media p{
+        margin: 0;
+        position: relative;
+        top: -8px;
+    }
+
+    div.social-media{
+        margin-top: 0;
+    }
+
+    img.maintain{
+        clip-path: none;
+        margin-bottom: 0;
+        height: 65%;
+    }
+
+    div.grow{
+        grid-row: 5;
+    }
+
+    div.grow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .growth{
+        align-self: center;
+        width: 60%;
+    }
+
+    .flex{
+        align-self: center;
+        position: relative;
+        top: -7px;
+    }
+
+    div.faster{
+        grid-row: 6;
+    }
+
+    div.schedule{
+        height: 100%;
+    }
+
+    div.ai{
+        position: static;
+        height: auto;
+    }
+
+    div.create-post h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    div.ai h3{
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+
+
+
+    
+
+   
+}
+  
