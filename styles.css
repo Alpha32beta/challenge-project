@@ -324,7 +324,7 @@ div.manage h3 , div.maintain h3{
     main{
         width: 100%;
         display: grid;
-        gap: 10px;
+        gap: 20px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, auto);
         padding: 10px;
@@ -333,7 +333,7 @@ div.manage h3 , div.maintain h3{
     div {
         width: 100%;
         margin: 0;
-        padding: 10px;
+        padding: 0;
         position: static;
     }
 
